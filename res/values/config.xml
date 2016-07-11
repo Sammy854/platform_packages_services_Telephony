@@ -29,6 +29,9 @@
     <!-- DEPRECATED: Use CarrierConfigManager#KEY_IGNORE_SIM_NETWORK_LOCKED_EVENTS_BOOL -->
     <bool name="ignore_sim_network_locked_events">false</bool>
 
+    <!-- DSDA phones that don't support local call hold need special handling -->
+    <bool name="dsda_supports_lch">false</bool>
+ 
     <!-- Flag indicating whether the Phone app should provide
          a "Dismiss" button on the SIM network unlock screen.
          The default value is true.
